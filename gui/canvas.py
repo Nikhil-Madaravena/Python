@@ -1,0 +1,11 @@
+from tkinter import *
+m=Tk()
+c=Canvas(m,width=180,height=180)
+c.pack()
+c.create_line(10,10,100,10)
+c.create_line(10,10,10,50)
+c.create_line(10,50,100,50)
+c.create_line(100,10,100,50)
+c.create_line(10,10,100,50)
+c.create_line(10,50,100,10)
+m.mainloop()
